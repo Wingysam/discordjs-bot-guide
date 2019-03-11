@@ -6,7 +6,7 @@
 It is strongly advised you actually shell out a couple dollars a month and get an actual real VPS, due to the free nature of Glitch it has led to a high number of Glitch based IP's getting API banned by Discord due to abuse.
 {% endhint %}
 
-_**HOLY FUCKING HELL GUYS I'VE FOUND IT**_
+_**GUYS I'VE FOUND IT**_
 
 I've finally found it. I found a free hosting that you guys can enjoy and put your bots on, that's not like the most complicated 4D puzzle in the world to get functional, and that _actually_ supports not only the most recent version of node, but also saving files locally so you can have a simple bot with persistence without so much hassle you'd be better off waiting until you had a job to get hosting.
 
@@ -33,7 +33,7 @@ In order to not ever lose access to your code, the first thing you need to do is
 * Choose either Github or Facebook to login.
 * Yeah ok the project is now yours.
 
-Toldja this shit was simple.
+Toldja this stuff was simple.
 
 ## Configure the Project
 

@@ -1,6 +1,6 @@
 # Using Git to share and update code
 
-Have you ever come to a point where you're editing code, removing and adding and changing stuff and all of a sudden you realize, _Shit, I deleted this piece and I need to rewrite or re-use it now. Damn!_
+Have you ever come to a point where you're editing code, removing and adding and changing stuff and all of a sudden you realize, Oof, I deleted this piece and I need to rewrite or re-use it now. RIP!_
 
 Have you ever wished there was a simpler way to transfer your code to your hosting, rather than having to connect to an FTP, or zip your file, upload to your host and unzip... you know the drill, right? Ugh!
 
@@ -113,7 +113,7 @@ IF you ever have 'temporary' changes and you want to overwrite them - like a qui
 
 You can connect to multiple remote repositories by running the `remote add` command above. You'll need a different name, for example instead of `origin` you can call a remote `gitlab` and then any command should reflect that, like `git pull gitlab master`.
 
-There is a **lot** more to `git` than what was shown here \(and I'm aware even that's already a shitton of information\). You can create and merge `branches`, `revert` to previous commits, make and accept `PR`s... [There is a lot more](https://www.google.com/search?q=git+tutorials) that you can you can learn!
+There is a **lot** more to `git` than what was shown here \(and I'm aware even that's already a ton of information\). You can create and merge `branches`, `revert` to previous commits, make and accept `PR`s... [There is a lot more](https://www.google.com/search?q=git+tutorials) that you can you can learn!
 
 But for now... I think this massive wall of text is plenty.
 
