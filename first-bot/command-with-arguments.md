@@ -110,7 +110,7 @@ This is called [Destructuring](https://developer.mozilla.org/en/docs/Web/JavaScr
 
 ## Grabbing Mentions
 
-Another way to use arguments, when the command should target a specific user \(or users\), is to use _Mentions_. For instance, to kick annoying shitposters with `!kick @Xx_SniperBitch_xX @UselessIdiot` can be done with ease, instead of attempting to grab their ID or their name.
+Another way to use arguments, when the command should target a specific user \(or users\), is to use _Mentions_. For instance, to kick annoying poop-posters with `!kick @Xx_Sniper_xX @UselessIdiot` can be done with ease, instead of attempting to grab their ID or their name.
 
 In the context of the `message` event handler, all mentions in a message are part of the `msg.mentions` object. This object then contains multiple [Collections ](../understanding/collections.md)of different mention types. Here are the various available mention types: 
 
@@ -149,7 +149,7 @@ if(command === "kick") {
 
 So, the reason is obtained by removing the first elements \(the mention, which looks like `<@1234567489213>`\) and re-joining the rest of the array elements with a space.
 
-To use this command, a user would do something like: `!kick @SuperGamerDude Obvious Troll, shitposting`.
+To use this command, a user would do something like: `!kick @SuperGamerDude Obvious Troll, poop-posting`.
 
 Here's another example, with a super simple command, the `say` command. It makes the bot say what you just sent, and then delete your message:
 

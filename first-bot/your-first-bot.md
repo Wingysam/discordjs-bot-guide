@@ -98,7 +98,7 @@ The changes to the code are still simple. Let's go through them:
 The second point is just as important as having a single `message` event handler. Let's say the bot receives a hundred messages every minute \(not much of an exaggeration on popular bots\). If the function does not break off at the beginning, you are processing these hundred messages in each of your command conditions. If, on the other hand, you break off when the prefix is not present, you are saving all these processor cycles for better things. If commands are 1% of your messages, you are saving 99% processing power...
 
 {% hint style="info" %}
-OK I'm sorry, I'm bullshitting a little. It's not 99%, that is an exaggeration. It _is_, however, true that you save a ton on processor and RAM power.
+OK I'm sorry, I'm exaggerating a little. It's not 99%, that is an exaggeration. It _is_, however, true that you save a ton on processor and RAM power.
 {% endhint %}
 
 ## Preventing Botception
