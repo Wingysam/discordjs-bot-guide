@@ -121,7 +121,7 @@ client.on('message', message => {
 
 ### Multiple Prefixes
 
-Let's make it 3 prefixes, this is fairly universal. This could also be in the config.json once you get there. So we'll start by setting it to false, we'll overwrite this in the loop. We should loop through the array using _for...of_ which is cleaner than that damn _i_ counter loop. This makes the prefix variable something else than false \('truthy'\) if the message starts with the prefix. If the message doesn't start with any of the 3 prefixes, then we can simply exit as usual.
+Let's make it 3 prefixes, this is fairly universal. This could also be in the config.json once you get there. So we'll start by setting it to false, we'll overwrite this in the loop. We should loop through the array using _for...of_ which is cleaner than that _i_ counter loop. This makes the prefix variable something else than false \('truthy'\) if the message starts with the prefix. If the message doesn't start with any of the 3 prefixes, then we can simply exit as usual.
 
 ```javascript
 client.on("message", message => {
@@ -181,7 +181,7 @@ message.channel.fetchMessages({
 This quick & dirty swear detector takes an array of swear words we don't want to see, and triggers on it.
 
 ```javascript
-const swearWords = ["darn", "shucks", "frak", "shite"];
+const swearWords = ["darn", "shucks", "frak", "shoot"];
 if( swearWords.some(word => message.content.includes(word)) ) {
   message.reply("Oh no you said a bad word!!!");
   // Or just do message.delete();
