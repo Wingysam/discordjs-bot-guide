@@ -1,5 +1,8 @@
 # Welcome
 
+## Clean
+Hi! I've cleaned this so I can share it with people.
+
 ## Introduction
 
 This guidebook was originally authored by eslachance\#4611 then handed down to me for future updates, but when she started the book originally it was because the examples for discord.js and the documentation were quite daunting for newcomers. There was definitely a space for this kind of document online, made obvious by the recurring questions that pop up almost every day on the support channels.
